@@ -1,0 +1,27 @@
+.linked {
+    position: relative;
+    color: #1b1b1b;
+    text-decoration: none;
+  }
+  
+  .linked:hover {
+    color: #000;
+  }
+  
+  .linked::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 160px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .linked:hover::before {
+    transform: scaleX(0.8);
+  }
