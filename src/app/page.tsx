@@ -13,20 +13,19 @@ export default function Home() {
       <Navbar />
       <SectionHero />
       <div>
-        <div className="pb-10 text-white text-center p-5">
+        <div className="text-white text-center">
           <h1 className="italic text-gray-300">Confian en nosotros:</h1>
         </div>
-
       </div>
-      <div className="w-full max-w-[800px] mx-auto">
+      <div className="w-full max-w-[800px] mx-auto flex-wrap">
         <Swiper
           id='devs-swiper'
           modules={[Autoplay]}
           freeMode={true}
-          slidesPerView={5}
+          slidesPerView={3}
           loop={true}
           spaceBetween={30}
-          speed={5000}
+          speed={1400}
           direction={'horizontal'}
           autoplay={{
             delay: 1,
