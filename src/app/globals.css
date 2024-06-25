@@ -71,6 +71,7 @@
       @apply border-border;
     }
     body {
-      background-color: #201f1f;
+      @apply min-h-screen bg-[rgb(224,222,222)];
+      background: linear-gradient(16deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 31%);
     }
   }
