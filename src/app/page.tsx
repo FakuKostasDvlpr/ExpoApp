@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="italic text-gray-300">Confian en nosotros:</h1>
         </div>
       </div>
-      <div className="w-full max-w-[800px] mx-auto flex-wrap">
+      <div className="w-full max-w-[700px] mx-auto flex-wrap">
         <Swiper
           id='devs-swiper'
           modules={[Autoplay]}
