@@ -6,7 +6,7 @@ import React from 'react';
 
 export function SectionHero() {
   return (
-    <section className="w-full pt-32 bg-transparent">
+    <section className="w-full pt-16 bg-transparent">
       <div className="container px-4 md:px-6 text-center">
         <div className="space-y-4 flex flex-col">
           <h1 className="text-4xl pb-2 font-bold tracking-tight text-primary-foreground sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl">
