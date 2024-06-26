@@ -15,7 +15,6 @@ export default function Home() {
       <SectionHero />
       <div className="w-full max-w-[800px] mx-auto ">
         <div className="w-full max-w-[700px]">
-
         <Swiper
           id='devs-swiper'
           modules={[Autoplay]}

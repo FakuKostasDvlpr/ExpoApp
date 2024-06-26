@@ -26,7 +26,7 @@ export function SectionHero() {
             />
           </p>
           <div className="hidden flex-col md:flex pt-4">
-          <p className="SubTitle max-w-6xl mx-auto text-lg text-primary-foreground/80 md:text-xl lg:text-2xl">
+          <p className="SubTitle w-[940px] max-w-6xl mx-auto text-lg text-primary-foreground/80 md:text-xl lg:text-2xl">
           Nos dedicamos a refinar y amplificar tu presencia en línea con precisión e innovación del
           </p>
           <p className="SubTitle max-w-6xl mx-auto text-lg text-primary-foreground/80 md:text-xl lg:text-2xl">contenido estratégico para mejorar tus redes sociales. </p>

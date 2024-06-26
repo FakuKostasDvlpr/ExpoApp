@@ -19,7 +19,6 @@ export function Navbar() {
     { text: 'Contenido' },
     { text: 'Edición' },
     { text: 'Distribución' },
-    { text: 'Contacto' },
   ];
 
   useEffect(() => {
