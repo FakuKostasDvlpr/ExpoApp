@@ -7,6 +7,7 @@ import 'swiper/css';
 import "../app/style/style.effect.css"
 import technologiesData, { IconData } from "@/data/tecno";
 import { AboutUs } from "@/components/component/about-us";
+import { AboutUsTwo } from "@/components/component/about-us-two";
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
         </Swiper>
       </div>
       </div>
-      <AboutUs/>
+      <AboutUsTwo/>
     </main>
   );
 }
