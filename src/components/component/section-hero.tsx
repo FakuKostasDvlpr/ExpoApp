@@ -34,8 +34,8 @@ export function SectionHero() {
           
           <div className="flex items-center justify-center  pt-10 px-2 flex-col  gap-4 sm:flex-row">
             <Link
-              href="#"
-              className="inline-flex  h-12 items-center justify-center rounded-md border border-primary-foreground bg-[#191919]  px-8 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary-foreground hover:text-primary focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              href="/contacto"
+              className="inline-flex  h-12 items-center justify-center rounded-[100px] border border-primary-foreground bg-[#191919]  px-8 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary-foreground hover:text-primary focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >
               Contactanos <Mail size={34} style={{paddingLeft: "10px"}} />

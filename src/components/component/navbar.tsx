@@ -57,8 +57,8 @@ export function Navbar() {
   }, []);
 
   return (
-    <div className="flex w-full max-w-[900px] mx-auto">
-      <div className="md:pt-14 top-0 left-0 max-w-[1060px] w-full mx-auto transition-all duration-300 ease-in-out will-change-transform">
+    <div className="flex w-full max-w-[900px] mx-auto ">
+      <div className="md:pt-5 top-0 left-0 max-w-[1060px] w-full mx-auto transition-all duration-300 ease-in-out will-change-transform">
         <header className="bg-[#333333] rounded-sm md:rounded-xl text-white container flex h-16 items-center justify-between md:justify-between px-4 md:px-6">
           <Link href="#" className="flex pr-6 items-center gap-2 font-bold" prefetch={false}>
             <Image src="/logo.png" width={60} height={60} alt="Logo" />

@@ -1,4 +1,5 @@
 export interface IconData {
+    name:string;
     component: React.FC<any>; 
 }
 import Hashi from '../../src/app/technologies/Hashi';
@@ -9,13 +10,14 @@ import Alekai from '../../src/app/technologies/Alekai';
 import EMP from '../../src/app/technologies/Next';
 import Dfria from '../../src/app/technologies/Astro';
 
+
 const technologiesData: IconData[] = [
-    { component: Hashi },
-    { component: Decrypto },
-    { component: CDN },
-    { component: Alekai },
-    { component: EMP },
-    { component: Dfria },
-];
+    { name: '@Hashi', component: Hashi },
+    { name: '@Decrypto', component: Decrypto },
+    { name: '@Club de negocios', component: CDN },
+    { name: '@Alekai', component: Alekai },
+    { name: '@EMP', component: EMP },
+    { name: '@La ducha fria', component: Dfria },
+  ];
 
 export default technologiesData;

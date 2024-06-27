@@ -7,6 +7,7 @@ import 'swiper/css';
 import "../app/style/style.effect.css"
 import technologiesData, { IconData } from "@/data/tecno";
 import { AboutUsTwo } from "@/components/component/about-us-two";
+import TolTip from "@/components/ui/tooltip";
 
 export default function Home() {
   return (
@@ -15,29 +16,31 @@ export default function Home() {
       <SectionHero />
       <div className="w-full max-w-[800px] mx-auto ">
         <div className="w-full max-w-[700px]">
-        <Swiper
-          id='devs-swiper'
-          modules={[Autoplay]}
-          freeMode={true}
-          slidesPerView={3}
-          loop={true}
-          spaceBetween={60}
-          speed={3400}
-          direction={'horizontal'}
-          autoplay={{
-            delay: 1,
-            disableOnInteraction: false,
-          }}
-        >
-          {technologiesData.map((icon: IconData, index: number) => (
-            <SwiperSlide key={index} className=''>
-              {<icon.component />}
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          <Swiper
+            id='devs-swiper'
+            modules={[Autoplay]}
+            freeMode={true}
+            slidesPerView={3}
+            loop={true}
+            spaceBetween={60}
+            speed={3400}
+            direction={'horizontal'}
+            autoplay={{
+              delay: 800, // Reducir el delay para una respuesta más rápida
+              disableOnInteraction: false,
+            }}
+          >
+            {technologiesData.map((icon: IconData, index: number) => (
+              <SwiperSlide key={index} className='cursor-pointer'>
+                <TolTip content={icon.name}>
+                  <icon.component />
+                </TolTip>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
-      </div>
-      <AboutUsTwo/>
+      <AboutUsTwo />
     </main>
   );
 }

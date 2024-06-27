@@ -4,8 +4,8 @@ import "../../app/style/style.effect.css";
 export function AboutUsTwo() {
   return (
     <section className="flex w-full justify-center mx-auto items-center">
-      <Card className="bg-[#191919] rounded-lg shadow-md w-full max-w-[840px]">
-        <CardHeader className="text-center flex gap-10 mt-2 items-center justify-end">
+      <Card className="bg-[#191919] rounded-[300px] shadow-md w-full max-w-[840px]">
+        <CardHeader className="text-center  flex gap-10 mt-2 items-center justify-end">
           <CardTitle className="text-6xl tracking-tight text-[#ffffff] font-light">
             Quienes <span className="font-extrabold">somos?</span>
           </CardTitle>

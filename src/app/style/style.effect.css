@@ -141,19 +141,18 @@
 
 /* Estilo del riel */
 ::-webkit-scrollbar-track {
-  background-color: #000000; /* Color de fondo del riel */
+  background-color: #fcfcfc; /* Color de fondo del riel */
 }
 
 /* Estilo del pulgar */
 ::-webkit-scrollbar-thumb {
-  background-color: #efefef
-  ; /* Color del pulgar */
+  background-color: #000000; /* Color del pulgar */
   border-radius: 4px; /* Radio de borde del pulgar */
 }
 
 /* Estilo del pulgar al pasar el mouse */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* Color del pulgar al pasar el mouse */
+  background-color: #6d6b6b; /* Color del pulgar al pasar el mouse */
 }
 
 /* Estilo del pulgar cuando está activo (haciendo scroll) */
@@ -164,5 +163,5 @@
 
 .SubTitle{
   font-family: 'Poppins', sans-serif;
-  color: #676565;
+  color: #333333;
 }
